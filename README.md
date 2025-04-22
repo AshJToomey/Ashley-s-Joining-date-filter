@@ -14,7 +14,9 @@ CSV file with a joining_date column formatted as YYYY-MM-DD
 📁 File Structure
 
 ├── filter_joining_dates.py
+
 ├── data/
+
 │   └── workers.csv
 
 📄 Sample Usage
