@@ -2,7 +2,7 @@
 
 This is a simple desktop application built with Python and Tkinter that allows users to filter employees by their joining date from a CSV file. The app provides an intuitive graphical interface for selecting files and entering date ranges, then displays filtered results in a scrollable text box.
 
-**🖥️ Features**
+## **🖥️ Features**
 - Upload a CSV file of employee data
 
 - Input a start and end date (in dd-mm-yy format)
@@ -13,7 +13,7 @@ This is a simple desktop application built with Python and Tkinter that allows u
 
 - Handle invalid dates and missing fields gracefully
 
-**📂 Example CSV Format**
+## **📂 Example CSV Format**
 The CSV should contain at least the following columns:
 
 Name,Joining_date
@@ -23,7 +23,7 @@ Carol Lee,28/03/2023
 
 ⚠️ Joining_date must be in dd/mm/yyyy format (e.g. 01/04/2023).
 
-**🚀 How to Run**
+## **🚀 How to Run**
 1) Install Python
    Ensure Python 3 is installed on your system. You can download it from python.org.
 
@@ -43,7 +43,7 @@ python joining_date_filter_gui.py
 
 -  Click Filter Workers to view results
 
-**🛠️ Dependencies**
+## **🛠️ Dependencies**
 
 This project only uses built-in Python libraries:
 
@@ -55,11 +55,11 @@ This project only uses built-in Python libraries:
 
 No external packages required 🎉
 
-**✍️ Author**
+## **✍️ Author**
 Ashley Toomey
 🔗 GitHub | 💼 LinkedIn
 
-**📃 License**
+## **📃 License**
 This project is open-source and free to use under the MIT License.
 
 
