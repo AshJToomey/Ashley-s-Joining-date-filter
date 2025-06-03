@@ -1,4 +1,4 @@
-# **🗂️ Ashley's Joining Date Filter
+# 🗂️ Ashley's Joining Date Filter
 
 This is a simple desktop application built with Python and Tkinter that allows users to filter employees by their joining date from a CSV file. The app provides an intuitive graphical interface for selecting files and entering date ranges, then displays filtered results in a scrollable text box.
 
