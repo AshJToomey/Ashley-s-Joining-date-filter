@@ -1,51 +1,65 @@
-# **Ashley's Joining Date Filter** 🗂️
+# **🗂️ Ashley's Joining Date Filter
 
-A simple Python script to filter worker joining dates from a CSV file based on a given date range. Useful for HR analytics, onboarding reports, and date-based filtering tasks.
+This is a simple desktop application built with Python and Tkinter that allows users to filter employees by their joining date from a CSV file. The app provides an intuitive graphical interface for selecting files and entering date ranges, then displays filtered results in a scrollable text box.
 
-**📌 Features**
+**🖥️ Features**
+- Upload a CSV file of employee data
 
-Loads worker data from a CSV file
-Filters workers by joining_date between two specified dates
-Outputs dates in a readable DD-MM-YY format
+- Input a start and end date (in dd-mm-yy format)
 
-**🛠 Requirements**
+- Filter workers based on joining dates (from the Joining_date column)
 
-Python 3.x
-CSV file with a joining_date column formatted as YYYY-MM-DD
+- View filtered results in a scrollable, easy-to-read output box
 
-**📁 File Structure**
+- Handle invalid dates and missing fields gracefully
 
-├── filter_joining_dates.py
+**📂 Example CSV Format**
+The CSV should contain at least the following columns:
 
-├── data/
+Name,Joining_date
+Alice Smith,01/04/2023
+Bob Johnson,15/04/2023
+Carol Lee,28/03/2023
 
-│   └── workers.csv
+⚠️ Joining_date must be in dd/mm/yyyy format (e.g. 01/04/2023).
 
-**📄 Sample Usage**
+**🚀 How to Run**
+1) Install Python
+   Ensure Python 3 is installed on your system. You can download it from python.org.
 
-Run the script using:
-python filter_joining_dates.py
+2) Save the Script
+   Save the code as joining_date_filter_gui.py.
 
-It will:
+3) Run the App
+   Open a terminal or command prompt and run:
 
-1) Load workers.csv from the data/ folder
+python joining_date_filter_gui.py
 
-2) Filter workers who joined between 01-Apr-2023 and 30-Apr-2023
+4) Use the GUI
 
-3) Print matching dates in DD-MM-YY format
+-  Click Browse to select your .csv file
 
-**🧾 Sample CSV Format**
+-  Enter a start and end date in dd-mm-yy format
 
-name,joining_date
-Alice,2023-04-10
-Bob,2023-03-15
-Charlie,2023-04-25
+-  Click Filter Workers to view results
 
-**🔧 Customization**
+**🛠️ Dependencies**
 
-Modify the file_path or date range in if __name__ == "__main__": to fit your use case.
+This project only uses built-in Python libraries:
 
-**📜 License**
+- csv
 
-MIT License
+- datetime
+
+- tkinter
+
+No external packages required 🎉
+
+**✍️ Author**
+Ashley Toomey
+🔗 GitHub | 💼 LinkedIn
+
+**📃 License**
+This project is open-source and free to use under the MIT License.
+
 
