@@ -55,10 +55,6 @@ This project only uses built-in Python libraries:
 
 No external packages required 🎉
 
-## **✍️ Author**
-Ashley Toomey
-🔗 GitHub | 💼 LinkedIn
-
 ## **📃 License**
 This project is open-source and free to use under the MIT License.
 
